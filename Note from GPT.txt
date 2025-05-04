@@ -1,0 +1,57 @@
+✅ Blueprint: 20 Unique Pages
+🔹 Core Pages (Already Present or Partially Done)
+Home Page (index.html) – Overview of featured destinations and intro.
+
+Login / Register (login.html) – User authentication.
+
+Feedback Page (feedback.html) – Collect feedback from visitors.
+
+Tour Detail 1 (tour1.html) – Tokyo Tower, Japan.
+
+Tour Detail 2 (tour2.html) – Statue of Liberty, NYC.
+
+Tour Detail 3 (tour3.html) – Colosseum, Rome.
+
+Tour Detail 4 (tour4.html) – Sydney Opera House.
+
+Tour Detail 5 (tour5.html) – Burj Khalifa, Dubai.
+
+💡 Make each tour page truly unique — change images, text, highlights, etc.
+
+🔹 Additional Tour/Location Pages
+Tour Detail 6 (tour-cairo.html) – Pyramids of Giza, Egypt.
+
+Tour Detail 7 (tour-paris.html) – Eiffel Tower, France.
+
+Tour Detail 8 (tour-bali.html) – Beaches of Bali, Indonesia.
+
+Tour Detail 9 (tour-kyoto.html) – Temples of Kyoto, Japan.
+
+Tour Detail 10 (tour-boracay.html) – Boracay, Philippines.
+
+🔹 Utility & Info Pages
+About Us (about.html) – Who you are, your mission, and values.
+
+Contact Us (contact.html) – Map, contact form, business hours.
+
+FAQs (faq.html) – Common questions and answers.
+
+Gallery (gallery.html) – Travel image gallery with categories.
+
+Travel Tips Blog (blog.html) – Travel advice, articles, updates.
+
+Terms & Privacy (terms.html) – Legal details and user rights.
+
+Subscribe / Newsletter (subscribe.html) – Email updates form.
+
+✳️ Optional Bonus Ideas (If you want to go beyond 20)
+profile.html – Logged-in user's profile and travel history.
+
+admin.html – Admin-only dashboard for managing content.
+
+booking.html – Simulated booking or inquiry form.
+
+events.html – Local travel events or festivals calendar.
+
+reviews.html – User-submitted travel reviews.
+
