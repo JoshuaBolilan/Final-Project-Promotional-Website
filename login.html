@@ -7,11 +7,12 @@
 </head>
 <body>
 
-<!-- COMPONENT 6: Login Form -->
 <div class="container mt-5">
   <h2 class="text-center mb-4">Login to Your Account</h2>
-  <form>
-    <!-- COMPONENT 7: Input Fields -->
+
+  <div id="greeting" class="alert alert-success d-none text-center"></div>
+
+  <form id="loginForm">
     <div class="mb-3">
       <label for="email" class="form-label">Email address:</label>
       <input type="email" class="form-control" id="email" required>
@@ -20,15 +21,28 @@
       <label for="pwd" class="form-label">Password:</label>
       <input type="password" class="form-control" id="pwd" required>
     </div>
-    <!-- COMPONENT 8: Checkbox -->
     <div class="form-check mb-3">
       <input class="form-check-input" type="checkbox" id="remember">
       <label class="form-check-label" for="remember">Remember me</label>
     </div>
-    <!-- COMPONENT 9: Button -->
     <button type="submit" class="btn btn-primary">Login</button>
   </form>
 </div>
+
+<script>
+  document.getElementById("loginForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const email = document.getElementById("email").value;
+    const username = email.split('@')[0];
+
+    // Store the username
+    localStorage.setItem("loggedInUser", username);
+
+    // Redirect to tourist spots page
+    window.location.href = "index.html";
+  });
+</script>
 
 </body>
 </html>
